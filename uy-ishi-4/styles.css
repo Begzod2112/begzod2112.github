@@ -1,0 +1,164 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: Arial, Helvetica, sans-serif;
+   text-decoration: none;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+  }
+  
+  .container {
+    display: flex;
+    max-width: 1200px;
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+header{
+    background-image: url(images/nike.jpg);
+    height:  600px;
+    
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content{
+    width: 80%;
+    margin: auto;
+   
+}
+.nav_menu a{
+    padding: 0 10px;
+    text-decoration: none;
+    color:  #515151;
+    font-size: 1rem;
+    
+    
+}
+.nav_menu a:hover{
+    opacity: 0,8;
+    color: #fff;
+    width: 145px;
+    height: 60px;
+    text-decoration: none;
+    background-color:  #515151;
+    font-size: 1.5rem;
+    font-weight: bold;
+ 
+}
+.logo{
+    color: #CB0A15;
+}
+.header_menu{
+   position: sticky;
+   text-align: center;
+    margin-top: 200px;
+    
+   
+}
+.header_menu h2{
+    color: #CB0A15;
+    font-family: Arial;
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}  
+menu{
+  display: flex;
+}
+.main-product {
+    padding: 20px;
+    flex: 2;
+  }
+  
+.main-product img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .main-product h2 {
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 24px;
+    color: #333;
+  }
+  
+.main-product p {
+    width: 500px;
+    height: 220px;
+    font-size: 16px;
+    line-height: 1.9;
+    color: #666;
+
+
+  }
+  
+.side-products {
+    flex: 1;
+    background-color: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+.side-product {
+   width: 500px;
+   height: 200px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .side-product img {
+    width: 160px;
+    height: 160px;
+    border-radius: 8px;
+    object-fit: cover;
+  }
+  
+.side-product h3 {
+    width: 100%;
+    font-size: 18px;
+    margin: 0;
+    color: #333;
+  }
+  
+.side-product p {
+    font-size: 14px;
+    color: #666;
+    margin: 0;
+  }
+  .text {
+    justify-content: center;
+    text-align: start;
+}
+footer{
+  margin: 0;
+  justify-content: center;
+  align-items: center ;
+}
+
+.footer{
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+}
+.footer_1{
+ padding: 20px;
+ justify-content: space-around;
+ align-items: end;
+}
+.footer h3{
+  color: red;
+}

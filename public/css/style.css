@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Inter:wght@400;500&family=Manrope:wght@500;700&family=Open+Sans:wght@400;500;600;700&family=Poppins:wght@400;600;700&family=Roboto+Slab&family=Roboto:wght@400;500;700&family=Rubik:wght@400;500;700&family=Young+Serif&display=swap');
+
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.div{
+    width: 1440px;
+    height: 1024px;
+    background: #DDEEFC;
+    display: flex;
+    padding: 261px 75px 262px 75px;
+    
+}
+.prosta{
+    width: 485px;
+    height: 501px;
+    position: relative;
+}
+.img{
+    position: absolute;
+    width: 361px;
+    height: 239px;
+    top: -85px;
+    left: 24px;
+}
+.div_card{
+    width: 410px;
+    height: 501px;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.04);
+    padding: 189px 25px 24px 25px;
+    display: flex;
+    flex-direction: column;
+}
+.div_card_heding{
+    width: 360px;
+    height: 24.884px;
+    display: flex;
+    margin-bottom: 3px;
+    font-family: 'Roboto Slab', serif;
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; 
+    letter-spacing: -0.34px;
+    text-transform: capitalize;
+}
+.div_card_text{
+    display: flex;
+    width: 190px;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 19px;
+
+}
+.div_card_text_star{
+    width: 85px;
+    height: 9.954px;
+}
+.div_card_text_os{
+    display: flex;
+    width: 52.5px;
+    height: 16.589px;
+    color: #B0B2B8;
+    font-family: 'Inter', sans-serif;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+.div_card_baks{
+    width: 137.5px;
+    height: 18.248px;
+    color: #000;
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px; 
+    display: flex;
+    margin-bottom: 8px;
+}
+.div_card_coment{
+    width: 360px;
+    height: 43.132px;
+    font-family: 'Inter', sans-serif;
+    color: #616265;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; 
+    letter-spacing: -0.084px;
+    display: flex;
+    margin-bottom: 16px;
+}
+.div_card_linya{
+    width: 360px;
+    height: 0.829px;
+    background: #DADDE4;
+    display: flex;
+    margin-bottom: 16px;
+}
+.div_card_tonlg{
+    width: 146.25px;
+    height: 18.248px;
+    font-family: 'Inter', sans-serif;
+    color: #000;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px;
+    display: flex;
+    margin-bottom: 9px;
+}
+.div_card_wraper{
+    width: auto;
+    height: 29px;
+    display: flex;
+    gap: 12px;
+    margin-bottom: 29px;
+}
+.div_card_wraper_sfera{
+    width: 70px;
+    height: 24.884px;
+    border-radius: 100px;
+    border: 1px solid #D3D6DC;    
+    background: #FFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.div_card_wraper :nth-child(2){
+    width: 70px;
+    height: 24.884px;
+    border-radius: 100px;
+    border: 1px solid #4C5ADC;    
+    background: #FFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #4C5ADC;
+}
+
+.div_card_wraper_sfera_text{
+    width: 46.25px;
+    height: 16.589px;
+    color: #727376;
+    font-family: 'Inter', sans-serif;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+.div_card_btn{
+    width: 360px;
+    height: 38.156px;
+    border-radius: 8px;
+    background: #2364D2;
+    color: #FFF;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: -0.198px;
+    text-transform: uppercase;
+}

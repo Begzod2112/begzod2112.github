@@ -1,0 +1,422 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.container{
+    width: 1440px;
+    height: 3112px;
+    background-color: #FFFFFF;
+    margin: auto;
+}
+header{
+    width: 1440px;
+    height: 1024px;
+    background-image: url(images/mashina.jpg);
+    background-repeat: no-repeat;
+}
+nav{
+    display: flex;
+    gap: 300px;
+}
+.logo{
+    width: 70px;
+    height: 63px;
+    justify-content: start;
+    padding: 30px;
+    margin-left: 100px;
+}
+.nav_a{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    gap: 40px;
+}
+select {
+    background-color: transparent; 
+    color: #fff; 
+    border: 1px solid #fff; 
+    border-radius: 4px;
+    padding: 5px 10px; 
+    width: 50px; 
+    appearance: none; 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url('arrow-down-icon.svg'); 
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 12px;
+}
+
+select:hover,
+select:focus {
+    background-color: #444; 
+    color: #fff;
+    border-color: #888;
+}
+a{
+    color: #fff;
+}
+a:hover{
+    color:  #FF8C00;
+}
+.header_buttun{
+    width: 667px;
+    height: 220px;
+    padding-top: 300px;
+    padding-left: 135px;
+    justify-content: center;
+    align-items: center;
+}
+.header_buttun h2{
+    width: 667px;
+    height: 108px;
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 54px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #FFFFFF;
+    padding-bottom: 150px;
+}
+.header_buttun button{
+    width: Hug (248px)px;
+    height: Hug (62px)px;
+    top: 560px;
+    left: 135px;
+    padding: 15px 76px 15px 76px;
+    gap: 10px;
+    border-radius: 8px 0px 0px 0px;
+    background-color: #114E86;
+}
+button:hover{
+    opacity: 0px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.7) 100%);
+}
+button h3{
+    width: 96px;
+    height: 32px;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #FFFFFF;    
+}
+main{
+    width: 1200px;
+    height: 400px;
+    margin: auto;
+    padding: 120px;
+}
+.main_h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main_h2 h2{
+    width: 222px;
+    height: 39px;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36.57px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #000000;
+}
+.main_p{
+    width: 970px;
+    height: 336px;
+    padding: 20px;
+    margin-left: 59px;
+}
+.main_p p{
+    width: 780px;
+    height: 160px;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24.38px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #000000;
+}
+.main_img{
+    padding: 50px;
+    margin-left: 1000px;
+}
+.menu_h2 {
+    padding-top: 300px;
+    padding-bottom: 50px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin-bottom: 20px;
+    
+}
+
+.menu_h2 h2 {
+    font-size: 24px;
+    color: #000;
+}
+
+.menu_haydovchilar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; 
+    position: relative; 
+}
+
+.menu_chap, .menu_onga {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    z-index: 10;
+    transition: all 0.3s ease;
+}
+
+.menu_chap {
+    left: 100px; 
+}
+
+.menu_onga {
+    right: 100px; 
+}
+
+.menu_chap:hover, .menu_onga:hover {
+    background-color: #eee;
+}
+
+
+.haydovchilar_menu {
+    display: flex;
+    gap: 20px; 
+    margin-bottom: 200px;
+}
+
+.haydovchilar_menu > div {
+    width: 500px;
+    height: 455px;
+    background-color: #fff;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    width: 250px; 
+    text-align: center;
+    transition: all 0.3s ease;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.haydovchilar_menu > div:hover {
+    background-color: #003366;
+    border-color: #003366;
+    color: #fff;
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.2);
+}
+
+.haydovchilar_menu img {
+    width: 160px;
+    height: 148px;
+    border-radius: 50%; 
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.haydovchi_p p {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19.5px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    font-family: Arial, sans-serif;
+    margin: 5px 0;
+    font-size: 14px;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.5px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.haydovchi_p b {
+    font-weight: bold;
+}
+
+.haydovchi_p {
+    margin-bottom: 10px;
+    padding: 20px;
+}
+
+.haydovchilar_menu > div::after {
+    content: '150$/soat'; 
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    color: #114E86;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: inherit;
+}
+/* Umumiy sozlamalar */
+  footer {
+    width: 1440px;
+    height: 641px;
+    background-color: #202020;
+    color: white;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+  }
+  
+  /* Aloqa bo'limi */
+  .footer-section {
+    flex: 1;
+  }
+  
+  .footer-section h3 {
+    font-size: 18px;
+    margin-bottom: 20px;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29.26px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+  }
+  
+  .footer-section p {
+    font-size: 16px;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24.38px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    padding: 20px;
+
+  }
+  
+  .footer-section p img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+  }
+  
+  /* Menyu bo'limi */
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-section ul li {
+    margin-bottom: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24.38px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    padding: 15px;
+  }
+  
+  .footer-section ul li:hover {
+    color: #ccc;
+  }
+  
+
+  .footer-section{
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29.26px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  }
+  form input {
+    width: 370px;
+    height: 50px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  form button {
+    width: 370px;
+    height: 60px;
+    padding: 10px;
+    background-color: #202020;
+    color:  #FFFFFF;
+    border: 1;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  form button:hover {
+    background-color: #fc5000;
+  }
+  
+  /* Ijtimoiy tarmoq ikonkalari */
+  .footer-icons {
+    position: absolute;
+    bottom: 10px;
+    right: 100px;
+    display: flex;
+    gap: 10px;
+  }
+  
+  .footer-icons a img {
+    width: 20px;
+    height: 20px;
+  }
+  
+  /* Pastki qism (Copyright) */
+  .footer-bottom {
+    position: absolute;
+    bottom: 10px;
+    left: 100px;
+  }
+  
+  .footer-bottom p {
+    font-size: 14px;
+    margin: 0;
+  }
+  

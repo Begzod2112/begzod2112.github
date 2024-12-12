@@ -1,0 +1,126 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Container */
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #ffffff;
+    border-bottom: 2px solid #e6e6e6;
+   
+}
+.nav{
+    display: flex;
+    padding: 30px;
+    gap: 700px;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+}
+
+.site-name {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+.hero {
+    width: 1060px;
+    height: 500px;
+    background-color: #dbeef1;
+    justify-content: center;
+    padding: 60px 20px;
+    background-image: url(images/kitob.png);
+}
+
+.hero h1 {
+    font-family: Roboto;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 58.59px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 40px;
+    background-color: #f4f4f4;
+}
+
+.card {
+    flex: 1;
+    background: #C4C4C4;
+    border: 1px solid #cccccc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    width: 200px;
+    height: 300px;
+
+
+
+
+}
+
+.card h2 {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.card p {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #dbeef1;
+    border-top: 2px solid #e6e6e6;
+    width: 100%;
+    height: 260px;
+    background: #C4C4C4;
+}
+
+.footer-logo {
+    width: 100px;
+    height: 100px;
+}
+
+.contact-info {
+    text-align: right;
+    font-size: 0.9rem;
+    color: #333;
+}
